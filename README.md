@@ -6,7 +6,7 @@
 - [Key Features](#-key-features)
 - [Usage](#-usage)
 - [Structure](#-structure)
-- [Notes](#-notes)
+- [Notes](#%EF%B8%8F-notes)
 - [Author](#-author)
 
 ---
