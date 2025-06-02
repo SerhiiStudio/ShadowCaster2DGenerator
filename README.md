@@ -17,6 +17,9 @@
 - Saves created objects as prefabs to a specified folder.
 - Cleans up temporary objects from the scene.
 - Visualizes contours in the editor via Gizmos.
+- **Enhanced Efficiency & Advanced Automation:**
+	- **Dramatically boosts productivity** by transforming 1-5 hours of manual effort into a swift 30-second to 2-minute automated process.
+	- **Utilizes sophisticated algorithms** for **alpha channel-based pixel traversal and contour mask creation**, followed by precise contour tracing and coordinate conversion. This solution was developed with **AI guidance**, demonstrating an innovative approach to complex automation challenges.
 ---
 
 ## 📦 Usage
@@ -97,7 +100,7 @@ A helper static class for saving shadows as prefabs.
 
 - The scripts use reflection to access private fields and methods of `ShadowCaster2D` and `ShadowUtility`.
 - Tested with `
-Unity 2022.3.35f1`, may not work or might cause errors with other Unity versions.
+Unity 2022.3.35f1` and `URP 14.0.11`, may not work or might cause errors with other Unity versions.
 - Works only in the **Unity Editor**, as it utilizes `UnityEditor`, `Undo`, `EditorUtility`, etc.
 - It is assumed that Universal Render Pipeline (URP) is already integrated into the project.
 
